@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import java.util.function.Supplier;
 
-import static michalsydoryk.fluentconditionals.FluentConditionalsStarter.when;
+import static michalsydoryk.fluentconditionals.Starter.when;
 
 @Test
 public class FluentconditionalsStarterTest {

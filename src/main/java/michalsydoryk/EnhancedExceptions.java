@@ -2,7 +2,7 @@ package michalsydoryk;
 
 
 import static michalsydoryk.fluentconditionals.FluentConditionals.doNothing;
-import static michalsydoryk.fluentconditionals.FluentConditionalsStarter.when;
+import static michalsydoryk.fluentconditionals.Starter.when;
 import static michalsydoryk.fluentconditionals.FluentConditionalsStarterParametrized.given;
 
 //Task 9

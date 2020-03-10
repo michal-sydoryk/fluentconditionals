@@ -1,7 +1,7 @@
 package michalsydoryk;
 
 import static michalsydoryk.fluentconditionals.FluentConditionals.doNothing;
-import static michalsydoryk.fluentconditionals.FluentConditionalsStarter.when;
+import static michalsydoryk.fluentconditionals.Starter.when;
 
 //Task 1
 public class IfElse {

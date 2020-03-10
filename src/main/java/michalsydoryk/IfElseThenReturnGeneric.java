@@ -1,7 +1,7 @@
 package michalsydoryk;
 
 
-import static michalsydoryk.fluentconditionals.FluentConditionalsStarter.when;
+import static michalsydoryk.fluentconditionals.Starter.when;
 
 //Task 5
 public class IfElseThenReturnGeneric {

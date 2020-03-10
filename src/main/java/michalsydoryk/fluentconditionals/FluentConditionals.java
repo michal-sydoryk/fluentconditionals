@@ -11,6 +11,47 @@ public class FluentConditionals {
         this.condition = condition;
     }
 
+    public Ender then(Runnable runnable) {
+        return new Ender(this, runnable);
+    }
+
+    public <T> FluentConditionalsReturningValue<T> thenReturn(T value) {
+        return new FluentConditionalsReturningValue<>(condition, value);
+    }
+
+    public <T> FluentConditionalsReturningValue<T> thenReturn(Supplier<T> supplier) {
+        return new FluentConditionalsReturningValue<>(condition, supplier.get());
+    }
+
+    public void thenThrow(Function<String, ? extends Exception> function, String message) throws Exception {
+        if (!condition)
+            throw function.apply(message);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public void orElse(Runnable runnable){
         if (!condition)
             runnable.run();
